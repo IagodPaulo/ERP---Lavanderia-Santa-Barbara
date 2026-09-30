@@ -325,10 +325,9 @@ Com base nos processos e requisitos levantados, as principais entidades a serem 
 Os atributos representam as informações que precisam ser armazenadas sobre cada entidade.
 
 ### Cliente
-- ID do cliente;
+- CPF;
 - Nome;
 - Telefone;
-- Segundo telefone;
 - Endereço, quando necessário.
 
 ### Pedido
@@ -353,7 +352,6 @@ Os atributos representam as informações que precisam ser armazenadas sobre cad
 - Descrição.
 
 ### Pagamento
-- ID do pagamento;
 - Valor;
 - Data;
 - Forma de pagamento;
@@ -421,37 +419,7 @@ Os demais relacionamentos deverão seguir o mesmo método de análise.
 
 ## 16. DER
 
-O Diagrama Entidade-Relacionamento deverá representar o resultado da análise realizada neste projeto.
 
-O DER deverá conter:
-- Entidades;
-- Atributos;
-- Relacionamentos;
-- Cardinalidades;
-- Regras de negócio relevantes;
-- Atributos pertencentes aos relacionamentos, quando existirem.
-
-### Fluxo de construção
-
-```text
-Problema real
-     ↓
-Processos
-     ↓
-Requisitos
-     ↓
-Regras de negócio
-     ↓
-Entidades
-     ↓
-Atributos
-     ↓
-Relacionamentos
-     ↓
-Cardinalidades
-     ↓
-DER
-```
 
 O DER final deverá ser anexado ao repositório.
 
@@ -471,10 +439,10 @@ A entidade Pedido é necessária para representar a solicitação realizada pelo
 O acompanhamento das etapas é necessário porque atualmente não existe uma diferenciação clara das fases pelas quais uma peça passa durante o processo interno. A modelagem deverá permitir representar esse acompanhamento.
 
 ### Precificação
-A precificação merece atenção na modelagem porque depende de características do item e do serviço realizado. Atualmente, parte relevante dessas informações está concentrada no conhecimento da responsável pela empresa.
+A precificação 
 
 ### Cardinalidades
-As cardinalidades deverão ser definidas a partir das regras de negócio, analisando os dois sentidos de cada relacionamento, e não apenas pela aparência do modelo.
+As cardinalidades 
 
 ---
 
